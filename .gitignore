@@ -1,0 +1,35 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# local data (kho JSON may dev) - khong commit du lieu hoc sinh
+/data/*.json
+!/data/.gitkeep
+
+# env
+.env
+.env.local
+.env*.local
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+.env*
+
+# du lieu xuat an danh (scripts/export-dataset.ts) - KHONG commit
+/exports/
+
+# du lieu pilot GIA LAP (npm run simulate:pilot) - sinh lai duoc, khong commit
+/sim-pilot/

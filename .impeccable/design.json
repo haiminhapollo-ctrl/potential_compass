@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T08:52:58+00:00",
+  "title": "Design System: Potential Compass",
+  "extensions": {
+    "colorMeta": {
+      "forest-ink": {
+        "role": "primary",
+        "displayName": "Xanh rừng sâu · Deep Forest Green",
+        "canonical": "#1B4D3E",
+        "tonalRamp": [
+          "#0D261E",
+          "#123329",
+          "#1B4D3E",
+          "#2D6A4F",
+          "#569A7E",
+          "#94C2AE",
+          "#E3EFE9",
+          "#F2F7F4"
+        ]
+      },
+      "forest-hover": {
+        "role": "primary",
+        "displayName": "Xanh rừng đêm (hover)",
+        "canonical": "#163F33",
+        "tonalRamp": [
+          "#0D261E",
+          "#123329",
+          "#1B4D3E",
+          "#2D6A4F",
+          "#569A7E",
+          "#94C2AE",
+          "#E3EFE9",
+          "#F2F7F4"
+        ]
+      },
+      "forest-deep": {
+        "role": "primary",
+        "displayName": "Xanh rừng đêm (nhấn, viền)",
+        "canonical": "#123329",
+        "tonalRamp": [
+          "#0D261E",
+          "#123329",
+          "#1B4D3E",
+          "#2D6A4F",
+          "#569A7E",
+          "#94C2AE",
+          "#E3EFE9",
+          "#F2F7F4"
+        ]
+      },
+      "forest-moss": {
+        "role": "primary",
+        "displayName": "Xanh rêu (thanh đo)",
+        "canonical": "#2D6A4F",
+        "tonalRamp": [
+          "#0D261E",
+          "#123329",
+          "#1B4D3E",
+          "#2D6A4F",
+          "#569A7E",
+          "#94C2AE",
+          "#E3EFE9",
+          "#F2F7F4"
+        ]
+      },
+      "forest-fern": {
+        "role": "primary",
+        "displayName": "Dương xỉ (viền hover link thẻ)",
+        "canonical": "#569A7E",
+        "tonalRamp": [
+          "#0D261E",
+          "#123329",
+          "#1B4D3E",
+          "#2D6A4F",
+          "#569A7E",
+          "#94C2AE",
+          "#E3EFE9",
+          "#F2F7F4"
+        ]
+      },
+      "forest-lichen": {
+        "role": "primary",
+        "displayName": "Rêu đá (dải Q1–Q3)",
+        "canonical": "#94C2AE",
+        "tonalRamp": [
+          "#0D261E",
+          "#123329",
+          "#1B4D3E",
+          "#2D6A4F",
+          "#569A7E",
+          "#94C2AE",
+          "#E3EFE9",
+          "#F2F7F4"
+        ]
+      },
+      "forest-mist": {
+        "role": "primary",
+        "displayName": "Sương rừng (đang chọn)",
+        "canonical": "#E3EFE9",
+        "tonalRamp": [
+          "#0D261E",
+          "#123329",
+          "#1B4D3E",
+          "#2D6A4F",
+          "#569A7E",
+          "#94C2AE",
+          "#E3EFE9",
+          "#F2F7F4"
+        ]
+      },
+      "terracotta": {
+        "role": "secondary",
+        "displayName": "Đất nung · Terracotta Orange",
+        "canonical": "#C2410C",
+        "tonalRamp": [
+          "#481804",
+          "#7F2B08",
+          "#B63D0B",
+          "#ED4F0F",
+          "#F37642",
+          "#F79E79",
+          "#FAC6B0",
+          "#FEEEE7"
+        ]
+      },
+      "terracotta-deep": {
+        "role": "secondary",
+        "displayName": "Đất nung đậm",
+        "canonical": "#9A3412",
+        "tonalRamp": [
+          "#441708",
+          "#79290E",
+          "#AD3A14",
+          "#E14C1A",
+          "#EA734C",
+          "#F09C80",
+          "#F6C5B4",
+          "#FCEDE8"
+        ]
+      },
+      "terracotta-blush": {
+        "role": "secondary",
+        "displayName": "Đất nung phớt (viền nhãn)",
+        "canonical": "#FFEDD5",
+        "tonalRamp": [
+          "#4C2C00",
+          "#874D00",
+          "#C16E00",
+          "#FB9000",
+          "#FFA937",
+          "#FFC271",
+          "#FFDBAB",
+          "#FFF4E6"
+        ]
+      },
+      "terracotta-wash": {
+        "role": "secondary",
+        "displayName": "Đất nung nhạt (nền nhãn)",
+        "canonical": "#FFF7ED",
+        "tonalRamp": [
+          "#4C2A00",
+          "#874B00",
+          "#C16B00",
+          "#FB8C00",
+          "#FFA637",
+          "#FFC071",
+          "#FFDAAB",
+          "#FFF4E6"
+        ]
+      },
+      "ochre": {
+        "role": "tertiary",
+        "displayName": "Vàng đất · Golden Ochre",
+        "canonical": "#F59E0B",
+        "tonalRamp": [
+          "#492F03",
+          "#815305",
+          "#B97708",
+          "#F19B0A",
+          "#F7B23F",
+          "#F9C977",
+          "#FCDFAF",
+          "#FEF5E7"
+        ]
+      },
+      "ochre-deep": {
+        "role": "tertiary",
+        "displayName": "Vàng đất đậm (cột mốc)",
+        "canonical": "#D97706",
+        "tonalRamp": [
+          "#4A2902",
+          "#834804",
+          "#BC6705",
+          "#F58607",
+          "#FAA23C",
+          "#FBBD75",
+          "#FDD8AD",
+          "#FEF3E6"
+        ]
+      },
+      "parchment": {
+        "role": "neutral",
+        "displayName": "Giấy kem mộc · Warm Parchment",
+        "canonical": "#FAF9F5",
+        "tonalRamp": [
+          "#332E1A",
+          "#5A512D",
+          "#817440",
+          "#A89754",
+          "#BCAF79",
+          "#D0C6A0",
+          "#E3DDC7",
+          "#F6F5EE"
+        ]
+      },
+      "card-white": {
+        "role": "neutral",
+        "displayName": "Trắng ngà (thẻ)",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#262626",
+          "#434343",
+          "#616161",
+          "#7E7E7E",
+          "#9B9B9B",
+          "#B8B8B8",
+          "#D5D5D5",
+          "#F2F2F2"
+        ]
+      },
+      "paper-well": {
+        "role": "neutral",
+        "displayName": "Giếng giấy (vùng lõm)",
+        "canonical": "#F3F1EA",
+        "tonalRamp": [
+          "#312C1C",
+          "#564E31",
+          "#7B6F46",
+          "#A0915B",
+          "#B6AA80",
+          "#CBC3A5",
+          "#E1DBCA",
+          "#F6F4EF"
+        ]
+      },
+      "ink-line": {
+        "role": "neutral",
+        "displayName": "Nét mực mảnh (viền 1px)",
+        "canonical": "#E2DED5",
+        "tonalRamp": [
+          "#2D291F",
+          "#504837",
+          "#72674F",
+          "#958767",
+          "#ADA288",
+          "#C5BDAB",
+          "#DDD8CD",
+          "#F5F3F0"
+        ]
+      },
+      "stone": {
+        "role": "neutral",
+        "displayName": "Đá xám (sao trống, mốc)",
+        "canonical": "#C7C2B6",
+        "tonalRamp": [
+          "#2B2821",
+          "#4C473B",
+          "#6D6654",
+          "#8E846D",
+          "#A8A08E",
+          "#C1BCAF",
+          "#DBD7D0",
+          "#F4F3F1"
+        ]
+      },
+      "slate-moss": {
+        "role": "neutral",
+        "displayName": "Rêu xám (chữ phụ)",
+        "canonical": "#485950",
+        "tonalRamp": [
+          "#222A26",
+          "#3C4B43",
+          "#566B60",
+          "#708B7D",
+          "#90A59A",
+          "#B0BFB8",
+          "#D1DAD5",
+          "#F1F4F2"
+        ]
+      },
+      "ink-hint": {
+        "role": "neutral",
+        "displayName": "Chữ gợi ý (placeholder)",
+        "canonical": "#627069",
+        "tonalRamp": [
+          "#242926",
+          "#3F4843",
+          "#5A6761",
+          "#75867E",
+          "#94A29B",
+          "#B3BDB8",
+          "#D2D8D5",
+          "#F1F3F2"
+        ]
+      },
+      "charcoal-forest": {
+        "role": "neutral",
+        "displayName": "Than rừng (tiêu đề)",
+        "canonical": "#112A22",
+        "tonalRamp": [
+          "#16362C",
+          "#27604E",
+          "#38896F",
+          "#48B391",
+          "#70C5AA",
+          "#9AD6C3",
+          "#C3E7DB",
+          "#EDF8F4"
+        ]
+      },
+      "status-error": {
+        "role": "status",
+        "displayName": "Lỗi",
+        "canonical": "#C2312F",
+        "tonalRamp": [
+          "#3E100F",
+          "#6C1B1A",
+          "#9B2726",
+          "#CA3331",
+          "#D85F5E",
+          "#E38E8D",
+          "#EFBCBC",
+          "#FAEBEA"
+        ]
+      },
+      "status-error-deep": {
+        "role": "status",
+        "displayName": "Lỗi (chữ đậm)",
+        "canonical": "#8F1F1D",
+        "tonalRamp": [
+          "#400E0D",
+          "#701817",
+          "#A12321",
+          "#D12D2A",
+          "#DD5B58",
+          "#E78B89",
+          "#F1BAB9",
+          "#FBEAEA"
+        ]
+      },
+      "status-error-wash": {
+        "role": "status",
+        "displayName": "Lỗi (nền)",
+        "canonical": "#FBE3E2",
+        "tonalRamp": [
+          "#430C09",
+          "#761410",
+          "#AA1D17",
+          "#DD261E",
+          "#E7554F",
+          "#EE8682",
+          "#F5B8B5",
+          "#FCE9E9"
+        ]
+      },
+      "status-success": {
+        "role": "status",
+        "displayName": "Thành công",
+        "canonical": "#15603F",
+        "tonalRamp": [
+          "#0E3F29",
+          "#186F49",
+          "#239E68",
+          "#2DCE87",
+          "#5BDBA3",
+          "#8AE5BD",
+          "#BAF0D8",
+          "#EAFAF3"
+        ]
+      },
+      "status-success-deep": {
+        "role": "status",
+        "displayName": "Thành công (chữ đậm)",
+        "canonical": "#0F4A30",
+        "tonalRamp": [
+          "#0D4029",
+          "#177049",
+          "#21A168",
+          "#2AD188",
+          "#58DDA3",
+          "#89E7BE",
+          "#B9F1D8",
+          "#EAFBF3"
+        ]
+      },
+      "status-success-wash": {
+        "role": "status",
+        "displayName": "Thành công (nền)",
+        "canonical": "#DCF3E6",
+        "tonalRamp": [
+          "#143924",
+          "#22643F",
+          "#31905A",
+          "#40BB76",
+          "#6ACC94",
+          "#95DBB3",
+          "#C1EAD2",
+          "#ECF8F1"
+        ]
+      },
+      "status-warning": {
+        "role": "status",
+        "displayName": "Cảnh báo",
+        "canonical": "#7A5810",
+        "tonalRamp": [
+          "#443109",
+          "#775610",
+          "#AB7B16",
+          "#DEA01D",
+          "#E8B64E",
+          "#EFCC81",
+          "#F5E1B5",
+          "#FCF6E8"
+        ]
+      },
+      "status-warning-wash": {
+        "role": "status",
+        "displayName": "Cảnh báo (nền)",
+        "canonical": "#FDF0D2",
+        "tonalRamp": [
+          "#493403",
+          "#815C06",
+          "#B98308",
+          "#F1AB0B",
+          "#F6BF3F",
+          "#F9D277",
+          "#FBE4AF",
+          "#FEF7E7"
+        ]
+      },
+      "domain-indigo-dye": {
+        "role": "domain",
+        "displayName": "Chấm nhóm · chàm",
+        "canonical": "#2E4A7D",
+        "tonalRamp": [
+          "#152138",
+          "#243A63",
+          "#34548D",
+          "#446DB8",
+          "#6D8DC9",
+          "#97AED9",
+          "#C2CFE8",
+          "#ECF1F8"
+        ]
+      },
+      "domain-iron": {
+        "role": "domain",
+        "displayName": "Chấm nhóm · xám sắt",
+        "canonical": "#5E6B73",
+        "tonalRamp": [
+          "#22272A",
+          "#3D454A",
+          "#57636A",
+          "#71818A",
+          "#919DA5",
+          "#B1BABF",
+          "#D1D6D9",
+          "#F1F3F4"
+        ]
+      },
+      "domain-rice": {
+        "role": "domain",
+        "displayName": "Chấm nhóm · xanh lúa",
+        "canonical": "#4D7C0F",
+        "tonalRamp": [
+          "#2A4408",
+          "#4B780F",
+          "#6BAC15",
+          "#8BE01B",
+          "#A6E94C",
+          "#C0F080",
+          "#DAF6B4",
+          "#F4FCE8"
+        ]
+      },
+      "domain-bronze": {
+        "role": "domain",
+        "displayName": "Chấm nhóm · đồng thau",
+        "canonical": "#B7791F",
+        "tonalRamp": [
+          "#412B0B",
+          "#734C14",
+          "#A56D1C",
+          "#D78E24",
+          "#E2A854",
+          "#EAC186",
+          "#F3DBB7",
+          "#FBF4E9"
+        ]
+      },
+      "domain-rose-clay": {
+        "role": "domain",
+        "displayName": "Chấm nhóm · hồng đất",
+        "canonical": "#B4535A",
+        "tonalRamp": [
+          "#351719",
+          "#5E292D",
+          "#863B40",
+          "#AF4C53",
+          "#C27379",
+          "#D49CA0",
+          "#E6C5C7",
+          "#F7EDEE"
+        ]
+      },
+      "domain-fired-clay": {
+        "role": "domain",
+        "displayName": "Chấm nhóm · đất nung",
+        "canonical": "#C2410C",
+        "tonalRamp": [
+          "#481804",
+          "#7F2B08",
+          "#B63D0B",
+          "#ED4F0F",
+          "#F37642",
+          "#F79E79",
+          "#FAC6B0",
+          "#FEEEE7"
+        ]
+      },
+      "domain-plum": {
+        "role": "domain",
+        "displayName": "Chấm nhóm · tím than",
+        "canonical": "#6B4E71",
+        "tonalRamp": [
+          "#2B1F2D",
+          "#4C3750",
+          "#6C4F72",
+          "#8D6795",
+          "#A788AD",
+          "#C1ABC5",
+          "#DACDDD",
+          "#F4F0F5"
+        ]
+      },
+      "domain-wood": {
+        "role": "domain",
+        "displayName": "Chấm nhóm · nâu gỗ",
+        "canonical": "#8B5A2B",
+        "tonalRamp": [
+          "#3A2612",
+          "#674320",
+          "#935F2E",
+          "#C07C3B",
+          "#D09A66",
+          "#DDB792",
+          "#EBD5BF",
+          "#F9F2EC"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Con số lớn đứng một mình (số hoạt động tuần, ô thống kê)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Tiêu đề trang."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Tiêu đề thẻ, biểu đồ."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Mọi câu học sinh đọc; sàn 15px."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "Chữ trên nút."
+      },
+      "chip": {
+        "displayName": "Chip",
+        "purpose": "Huy hiệu nhóm, mục điều hướng trên điện thoại."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Nhãn mở đầu khối, viết hoa."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Dòng phụ nhóm · ngày, chú thích trục."
+      }
+    },
+    "shadows": [
+      {
+        "name": "clay / clay-sm (viền giấy)",
+        "value": "0 0 0 1px #E2DED5",
+        "purpose": "Tên cũ giữ để tương thích; tương đương viền ink-line, không blur."
+      },
+      {
+        "name": "clay-inset (viền lõm)",
+        "value": "inset 0 0 0 1px #E2DED5",
+        "purpose": "Viền trong cho vùng lõm."
+      },
+      {
+        "name": "clay-brand / clay-pressed (viền mực)",
+        "value": "0 0 0 1px #123329",
+        "purpose": "Viền xanh rừng cho khối nhấn."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-clay",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Easing chuyển trạng thái ngắn."
+      },
+      {
+        "name": "clay-rise",
+        "value": "opacity 0→1, translateY(4px→0), 0.2s ease-out",
+        "purpose": "Xuất hiện nhẹ khi vào trang; tắt khi prefers-reduced-motion."
+      },
+      {
+        "name": "state-change",
+        "value": "background-color/border-color/color 150ms",
+        "purpose": "Hover, nhấn của nút và lựa chọn; không nâng khối."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Hành động chính của màn hình: Hoàn thành hoạt động, Vào học.",
+      "html": "<button class=\"ds-btn-primary\">Hoàn thành hoạt động</button>",
+      "css": ".ds-btn-primary{font-family:Nunito,system-ui,sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:8px;padding:12px 20px;font-size:15px;font-weight:700;line-height:1.5;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s;background:#1B4D3E;color:#FFFFFF;border:1px solid #123329;}.ds-btn-primary:hover{background:#163F33;}.ds-btn-primary:active{background:#123329;transform:translateY(1px);}.ds-btn-primary:focus-visible{outline:none;box-shadow:0 0 0 2px #FAF9F5,0 0 0 4px #1B4D3E;}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Hành động phụ đặt cạnh nút chính.",
+      "html": "<button class=\"ds-btn-secondary\">Để dành làm sau</button>",
+      "css": ".ds-btn-secondary{font-family:Nunito,system-ui,sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:8px;padding:12px 20px;font-size:15px;font-weight:700;line-height:1.5;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s;background:#FFFFFF;color:#1B4D3E;border:1px solid #E2DED5;}.ds-btn-secondary:hover{background:#F3F1EA;}.ds-btn-secondary:active{border-color:#1B4D3E;transform:translateY(1px);}.ds-btn-secondary:focus-visible{outline:none;box-shadow:0 0 0 2px #FAF9F5,0 0 0 4px #1B4D3E;}"
+    },
+    {
+      "name": "Danger Button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Hành động phá hủy (xóa) ở trang giáo viên.",
+      "html": "<button class=\"ds-btn-danger\">Xóa học sinh</button>",
+      "css": ".ds-btn-danger{font-family:Nunito,system-ui,sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:8px;padding:12px 20px;font-size:15px;font-weight:700;line-height:1.5;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s;background:#C2410C;color:#FFFFFF;border:1px solid #9A3412;}.ds-btn-danger:hover{background:#9A3412;}.ds-btn-danger:active{transform:translateY(1px);}.ds-btn-danger:focus-visible{outline:none;box-shadow:0 0 0 2px #FAF9F5,0 0 0 4px #1B4D3E;}"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Ô nhập phẳng viền một nét; placeholder mờ để không giống chữ đã nhập.",
+      "html": "<input class=\"ds-input\" placeholder=\"Em có thể viết vài câu, hoặc bỏ trống.\" />",
+      "css": ".ds-input{font-family:Nunito,system-ui,sans-serif;width:100%;max-width:340px;background:#FFFFFF;color:#1B4D3E;border:1px solid #E2DED5;border-radius:8px;padding:12px 16px;font-size:15px;outline:none;transition:border-color .15s;}.ds-input::placeholder{color:#627069;}.ds-input:focus-visible{border-color:#1B4D3E;box-shadow:0 0 0 2px #1B4D3E;}"
+    },
+    {
+      "name": "Choice Option",
+      "kind": "custom",
+      "refersTo": "choice-option",
+      "description": "Lựa chọn đáp án: cả nhãn là vùng bấm, chọn thì đổ nền sương rừng.",
+      "html": "<div class=\"ds-choices\"><label class=\"ds-choice\"><input type=\"radio\" name=\"ds-q\" checked /><span class=\"ds-dot\"></span><span>Em học được điều mới</span></label><label class=\"ds-choice\"><input type=\"radio\" name=\"ds-q\" /><span class=\"ds-dot\"></span><span>Hơi khó, em cần người hướng dẫn</span></label></div>",
+      "css": ".ds-choices{display:grid;gap:10px;max-width:360px;}.ds-choice{font-family:Nunito,system-ui,sans-serif;display:flex;align-items:flex-start;gap:12px;background:#FFFFFF;color:#1B4D3E;border:1px solid #E2DED5;border-radius:8px;padding:14px;font-size:15px;font-weight:500;line-height:1.625;cursor:pointer;transition:background-color .15s;}.ds-choice input{position:absolute;opacity:0;width:1px;height:1px;}.ds-dot{margin-top:3px;width:20px;height:20px;flex-shrink:0;border-radius:9999px;background:#F3F1EA;box-shadow:inset 0 0 0 1px #E2DED5;display:grid;place-items:center;}.ds-dot::after{content:'';width:6px;height:6px;border-radius:9999px;background:#FFFFFF;opacity:0;}.ds-choice:hover{background:#F3F1EA;}.ds-choice:has(input:checked){background:#E3EFE9;color:#123329;font-weight:700;}.ds-choice:has(input:checked) .ds-dot{background:#1B4D3E;box-shadow:none;}.ds-choice:has(input:checked) .ds-dot::after{opacity:1;}.ds-choice:has(input:focus-visible){box-shadow:0 0 0 2px #FAF9F5,0 0 0 4px #1B4D3E;}"
+    },
+    {
+      "name": "Domain Badge",
+      "kind": "chip",
+      "refersTo": "badge-domain",
+      "description": "Huy hiệu nhóm lĩnh vực: chấm hình thoi màu nhóm, luôn kèm tên.",
+      "html": "<span class=\"ds-badge\"><span class=\"ds-diamond\"></span>📚 Xã hội, Giáo dục &amp; Nhân văn</span>",
+      "css": ".ds-badge{font-family:Nunito,system-ui,sans-serif;display:inline-flex;align-items:center;gap:8px;background:#FFFFFF;color:#1B4D3E;border:1px solid #E2DED5;border-radius:8px;padding:6px 12px;font-size:12px;font-weight:700;}.ds-diamond{width:10px;height:10px;background:#6B4E71;transform:rotate(45deg);flex-shrink:0;}"
+    },
+    {
+      "name": "Notable Badge",
+      "kind": "chip",
+      "refersTo": "badge-notable",
+      "description": "Nhãn Nổi bật: huy hiệu sao mặt trời trên nền đất nung nhạt.",
+      "html": "<span class=\"ds-notable\"><span class=\"ds-notable-star\"><svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"11.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.8\"/><polygon points=\"12.00,1.40 12.98,7.71 16.60,2.45 14.74,8.56 20.29,5.39 15.96,10.09 22.33,9.64 16.40,12.00 22.33,14.36 15.96,13.91 20.29,18.61 14.74,15.44 16.60,21.55 12.98,16.29 12.00,22.60 11.02,16.29 7.40,21.55 9.26,15.44 3.71,18.61 8.04,13.91 1.67,14.36 7.60,12.00 1.67,9.64 8.04,10.09 3.71,5.39 9.26,8.56 7.40,2.45 11.02,7.71\"/></svg></span>Nổi bật</span>",
+      "css": ".ds-notable{font-family:Nunito,system-ui,sans-serif;display:inline-flex;align-items:center;gap:4px;background:#FFF7ED;color:#9A3412;border:1px solid #FFEDD5;border-radius:8px;padding:2px 8px;font-size:10px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;}.ds-notable-star{display:inline-flex;width:12px;height:12px;}.ds-notable-star svg{width:100%;height:100%;}"
+    },
+    {
+      "name": "Domain Score Bar",
+      "kind": "custom",
+      "refersTo": "score-bar",
+      "description": "Thanh đo một sắc xanh rêu; nhóm Nổi bật đổi đất nung; vạch giữa = 50.",
+      "html": "<div class=\"ds-scores\"><div class=\"ds-row\"><div class=\"ds-row-head\"><span>⚙️ Kỹ thuật, Công nghệ &amp; Chế tạo</span><b>82</b></div><div class=\"ds-track\"><div class=\"ds-bar ds-bar-notable\" style=\"width:82%\"></div><span class=\"ds-mid\"></span></div></div><div class=\"ds-row\"><div class=\"ds-row-head\"><span>🌱 Nông - Lâm - Ngư nghiệp</span><b>58</b></div><div class=\"ds-track\"><div class=\"ds-bar\" style=\"width:58%\"></div><span class=\"ds-mid\"></span></div></div></div>",
+      "css": ".ds-scores{font-family:Nunito,system-ui,sans-serif;display:grid;gap:14px;max-width:360px;color:#1B4D3E;}.ds-row-head{display:flex;justify-content:space-between;gap:8px;margin-bottom:6px;font-size:15px;font-weight:600;}.ds-row-head b{font-weight:800;color:#112A22;font-variant-numeric:tabular-nums;}.ds-track{position:relative;height:24px;border-radius:9999px;background:#F3F1EA;border:1px solid #E2DED5;overflow:hidden;}.ds-bar{height:100%;border-radius:9999px;background:#2D6A4F;}.ds-bar-notable{background:#C2410C;}.ds-mid{position:absolute;top:0;bottom:0;left:50%;width:2px;background:rgba(255,255,255,.8);}"
+    },
+    {
+      "name": "Student Bottom Nav",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Điều hướng 3 mục của học sinh trên điện thoại; mục đang mở đổ nền sương rừng.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-item\" href=\"#\"><i aria-hidden=\"true\">🎯</i>Hoạt động</a><a class=\"ds-nav-item ds-nav-active\" href=\"#\" aria-current=\"page\"><i aria-hidden=\"true\">🧭</i>Hồ sơ</a><a class=\"ds-nav-item\" href=\"#\"><i aria-hidden=\"true\">📅</i>Tuần này</a></nav>",
+      "css": ".ds-nav{font-family:Nunito,system-ui,sans-serif;display:flex;gap:4px;max-width:360px;padding:6px;background:#FFFFFF;border:1px solid #E2DED5;border-radius:12px;}.ds-nav-item{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px;border-radius:8px;font-size:12px;font-weight:700;color:#485950;text-decoration:none;transition:background-color .15s;}.ds-nav-item i{font-style:normal;font-size:18px;line-height:1.2;}.ds-nav-item:hover{background:#F3F1EA;color:#1B4D3E;}.ds-nav-active{background:#E3EFE9;color:#163F33;}.ds-nav-item:focus-visible{outline:none;box-shadow:0 0 0 2px #FAF9F5,0 0 0 4px #1B4D3E;}"
+    },
+    {
+      "name": "Weekly Milestone Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Thẻ kết quả tuần: dải thổ cẩm mép trên, sao mặt trời cột mốc, liên kết mũi tên chim Lạc.",
+      "html": "<div class=\"ds-week\"><div class=\"ds-week-top\"><p class=\"ds-week-num\">4</p><span class=\"ds-week-sun\"><svg viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"11.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.8\"/><polygon points=\"12.00,1.40 12.98,7.71 16.60,2.45 14.74,8.56 20.29,5.39 15.96,10.09 22.33,9.64 16.40,12.00 22.33,14.36 15.96,13.91 20.29,18.61 14.74,15.44 16.60,21.55 12.98,16.29 12.00,22.60 11.02,16.29 7.40,21.55 9.26,15.44 3.71,18.61 8.04,13.91 1.67,14.36 7.60,12.00 1.67,9.64 8.04,10.09 3.71,5.39 9.26,8.56 7.40,2.45 11.02,7.71\"/></svg></span></div><p class=\"ds-week-label\">hoạt động đã hoàn thành tuần này</p><a class=\"ds-week-link\" href=\"#\">Xem hồ sơ của em<span class=\"ds-lac\"><svg viewBox=\"0 0 20 12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 6h10M1.5 2.5 4 6M4.5 2.5 7 6\"/><path d=\"M11 2.5 18.5 6 11 9.5l2-3.5z\" fill=\"currentColor\"/></svg></span></a></div>",
+      "css": ".ds-week{font-family:Nunito,system-ui,sans-serif;max-width:360px;background-color:#E3EFE9;background-image:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='8'%3E%3Cpath fill='%231B4D3E' d='M0 0h16v8H0z'/%3E%3Cpath fill='%23F59E0B' d='M8 1l3 3-3 3-3-3z'/%3E%3Cpath fill='%23C2410C' d='M0 1l3 3-3 3zM16 1l-3 3 3 3z'/%3E%3C/svg%3E\");background-repeat:repeat-x;background-size:16px 8px;border:1px solid #E2DED5;border-radius:12px;padding:32px 24px 24px;}.ds-week-top{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;}.ds-week-num{margin:0;font-size:48px;font-weight:800;line-height:1;letter-spacing:-.04em;color:#163F33;}.ds-week-sun{width:48px;height:48px;color:#D97706;}.ds-week-sun svg{width:100%;height:100%;}.ds-week-label{margin:4px 0 0;font-size:15px;font-weight:700;color:#123329;}.ds-week-link{margin-top:16px;display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:700;color:#1B4D3E;text-decoration:none;}.ds-lac{display:inline-flex;width:24px;height:14px;}.ds-lac svg{width:100%;height:100%;}.ds-week-link:hover{text-decoration:underline;text-underline-offset:3px;}.ds-week-link:focus-visible{outline:none;box-shadow:0 0 0 2px #FAF9F5,0 0 0 4px #1B4D3E;border-radius:4px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Sổ tay giấy mộc",
+    "overview": "Potential Compass là cuốn sổ tay giấy mộc em mang theo lên nương. Trang giấy màu kem mờ, chữ viết bằng mực xanh rừng. Mỗi khối nội dung là một trang giấy phẳng, giới hạn bằng một nét mực mảnh. Không có khối nhựa nổi lên, không có ánh sáng tỏa, không có lớp kính mờ. Sổ tay phải đọc rõ dưới nắng gắt, trên màn hình điện thoại rẻ, kể cả khi kính đã nứt. Không chi tiết trang trí nào được tranh chỗ với chữ.\n\nBản sắc không nằm ở nền hay mảng màu lớn. Nó nằm ở vài dấu nhỏ, chính xác, mượn từ mặt Trống đồng Đông Sơn và vải thổ cẩm: ngôi sao mặt trời 14 cánh, đầu mũi tên chim Lạc, chấm hình thoi, dải kỷ hà thổ cẩm. Các dấu này đóng lên trang như con triện, không bao giờ trải thành giấy dán tường. Màu chia vai rõ ràng: xanh rừng để đọc và hành động, đất nung để báo \"chú ý ở đây\", vàng đất cho sao và huy hiệu.\n\nĐây là giao diện để làm việc (Operate): làm khảo sát, chấm sao, bấm chọn cảm nhận. Mật độ thoáng, mỗi màn hình một cột trên điện thoại, vùng bấm rộng, câu nội dung tối thiểu 15px. Cùng một hệ phải dùng tốt trên màn hình máy tính phòng tin học. Báo cáo đã bác bỏ dứt khoát thế giới cũ: nền trắng phớt tím, nút tím kiểu SaaS, bóng \"đất sét\" nhiều lớp có màu, 8 thanh màu neon, lớp hạt nhiễu phủ toàn trang.",
+    "keyCharacteristics": [
+      "Ba tầng giấy phẳng (nền giấy kem → thẻ trắng → giếng giấy lõm), phân tách bằng nét mực 1px, không đổ bóng.",
+      "Một giọng mực xanh rừng cho chữ thân, tiêu đề và nút chính.",
+      "Đất nung chỉ xuất hiện khi cần chú ý; vàng đất chỉ là con triện (sao, huy hiệu, cột mốc).",
+      "Hoa văn bản địa là SVG nội tuyến dưới 2KB, đứng yên, đặt ở điểm nhỏ.",
+      "Một họ chữ Nunito, đầu nét tròn, đủ dấu tiếng Việt."
+    ],
+    "rules": [
+      {
+        "name": "The Single-Hue Measure Rule",
+        "body": "Thanh đo điểm chỉ có một sắc xanh rêu. Nhóm \"Nổi bật\" đổi sang đất nung và luôn kèm nhãn chữ. Không bao giờ tô mỗi nhóm một màu.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ochre Seal Rule",
+        "body": "Vàng đất là con triện: sao, huy hiệu, cột mốc. Không dùng vàng đất cho chữ, vì chỉ đạt 2.15:1 trên nền trắng.",
+        "section": "colors"
+      },
+      {
+        "name": "The Terracotta Attention Rule",
+        "body": "Đất nung nghĩa là \"nhìn vào đây\". Mỗi màn hình chỉ có vài điểm đất nung; dùng nhiều hơn thì nó mất nghĩa.",
+        "section": "colors"
+      },
+      {
+        "name": "The 15px Floor Rule",
+        "body": "Câu nội dung học sinh đọc dùng body (15px) trở lên. Cỡ 12px chỉ dành cho nhãn, chip, số thứ tự, dòng meta và thanh điều hướng.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rows Rule",
+        "body": "Số đặt trong hàng hoặc cột (điểm từng nhóm, ngày tháng trong danh sách) dùng chữ số bằng nhau (`.nums`). Một con số đứng riêng thì giữ chữ số tỉ lệ.",
+        "section": "typography"
+      },
+      {
+        "name": "The Two-Screens Rule",
+        "body": "Mọi màn hình học sinh phải đúng ở cả hai khung: điện thoại 390px và màn hình máy tính phòng tin học (≥1024px).",
+        "section": "layout"
+      },
+      {
+        "name": "The Ink Line Rule",
+        "body": "Muốn tách một bề mặt thì dùng nét mực 1px hoặc đổi tông giấy. Không dùng box-shadow có blur, drop-shadow hay backdrop-filter: blur, vì máy rẻ phải cuộn mượt 60fps.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Diamond-Not-Dot Rule",
+        "body": "Chấm phân loại và chấm trạng thái là hình thoi. Hình tròn chỉ dành cho nút radio, vì đó là quy ước bấm chọn người dùng đã quen.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** dựng bề mặt bằng ba tầng giấy: nền giấy kem (#FAF9F5), thẻ trắng (#FFFFFF), giếng giấy (#F3F1EA). Tầng nào cũng có viền 1px #E2DED5.",
+      "**Do** dùng xanh rừng sâu (#1B4D3E) cho nút chính và chữ thân, than rừng (#112A22) cho tiêu đề.",
+      "**Do** giữ thanh đo một sắc xanh rêu (#2D6A4F). Chỉ nhóm \"Nổi bật\" đổi sang đất nung (#C2410C), và luôn kèm nhãn chữ cùng sao mặt trời.",
+      "**Do** dùng cỡ 15px trở lên cho mọi câu học sinh đọc.",
+      "**Do** thể hiện trạng thái được chọn bằng nền sương rừng (#E3EFE9) và chữ đậm.",
+      "**Do** dùng hoa văn ở dạng dấu nhỏ, SVG nội tuyến dưới 2KB, theo currentColor: sao mặt trời cho logo, huy hiệu, cột mốc; mũi tên chim Lạc cho link chuyển trang; hình thoi cho chấm phân loại; dải thổ cẩm 8px cho mép trên thẻ kết quả tuần.",
+      "**Do** giữ vòng focus 2px xanh rừng cho mọi phần tử bấm được.",
+      "**Do** để phần trình duyệt tự vẽ mang màu sổ tay: bôi chọn chữ màu sương rừng, con trỏ nhập và checkbox gốc màu xanh rừng, thanh cuộn màu đá xám.",
+      "**Do** báo trạng thái \"bấm được\" bằng đổi màu nền hoặc viền: nút và lựa chọn đổi sang giếng giấy, link dạng thẻ có viền dương xỉ.",
+      "**Do** kiểm tra mọi màn hình học sinh ở cả 390px và ≥1024px."
+    ],
+    "donts": [
+      "**Don't** dùng box-shadow có blur, drop-shadow hay backdrop-filter: blur.",
+      "**Don't** quay lại nền trắng phớt tím (#F5F3FF), nút tím SaaS (#4F46E5) hay bóng \"đất sét\" nhiều lớp.",
+      "**Don't** tô 8 thanh lĩnh vực bằng 8 màu. Màu nhóm chỉ dùng cho chấm hình thoi trong huy hiệu, luôn kèm tên nhóm.",
+      "**Don't** phủ hoa văn chìm lên nền trang hay đặt sau chữ.",
+      "**Don't** dùng ảnh bitmap PNG/JPG làm khung viền hay hoa văn.",
+      "**Don't** vẽ lại trống đồng chi tiết. Chỉ dùng sao mặt trời 14 cánh đã tinh giản.",
+      "**Don't** cho hoa văn chuyển động lặp. Chuyển động chỉ là phản hồi ngắn (≤ 200ms) và phải tôn trọng prefers-reduced-motion.",
+      "**Don't** dùng vàng đất (#F59E0B) hay đá xám (#C7C2B6) cho chữ.",
+      "**Don't** dùng xám nhạt độ tương phản thấp (kiểu #9CA3AF) cho chữ phụ.",
+      "**Don't** dùng cỡ 12px cho câu nội dung."
+    ]
+  }
+}

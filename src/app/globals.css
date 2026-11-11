@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  /* Phan trinh duyet tu ve cung mang mau so tay: checkbox/radio goc, con tro nhap, thanh cuon. */
+  accent-color: #1b4d3e;
+  caret-color: #1b4d3e;
+  scrollbar-color: #c7c2b6 transparent;
+}
+
+::selection {
+  background-color: #e3efe9;
+  color: #123329;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+/* Nen giay kem moc (#FAF9F5), chu xanh sam (#1B4D3E), co chu toi thieu 15px tren mobile.
+   0% Noise: Khong dung radial-gradient fixed hay pattern hoa van chim phu toan trang. */
+body {
+  @apply bg-clay-bg font-sans text-[15px] leading-relaxed text-ink-800 antialiased md:text-base;
+}
+
+/* Vung an toan cho PWA tren dien thoai co notch */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@layer base {
+  a {
+    text-underline-offset: 3px;
+  }
+
+  legend {
+    float: left;
+    width: 100%;
+  }
+  legend + * {
+    clear: both;
+  }
+}
+
+@layer components {
+  /* --- Khung the phang: Nen trang nga (#FFFFFF), vien muc mong 1px (#E2DED5), khong do bong --- */
+  .clay {
+    @apply rounded-clay border border-clay-line bg-clay-surface shadow-none;
+  }
+
+  /* --- Vung lom phang: o nhap lieu, track thanh do --- */
+  .clay-sunken {
+    @apply rounded-clay-sm border border-clay-line bg-clay-sunken shadow-none;
+  }
+
+  /* --- O nhap lieu vien net don, tuong phan cao --- */
+  .clay-input {
+    @apply w-full rounded-clay-sm border border-clay-line bg-clay-surface px-4 py-3 text-[15px] text-ink-800
+           shadow-none outline-none transition
+           placeholder:text-ink-hint
+           focus-visible:border-brand-600 focus-visible:ring-2 focus-visible:ring-brand-600;
+  }
+}
+
+@layer utilities {
+  .focus-ring {
+    @apply outline-none focus-visible:ring-2 focus-visible:ring-brand-600
+           focus-visible:ring-offset-2 focus-visible:ring-offset-clay-bg;
+  }
+
+  /* Phan hoi bam nhe nhang, khong dung GPU shadow */
+  .clay-press {
+    @apply transition-colors duration-150 active:translate-y-px;
+  }
+
+  .nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .balance {
+    text-wrap: balance;
+  }
+
+  .pretty {
+    text-wrap: pretty;
+  }
+
+  .above-grain {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Dai ky ha tho cam vien tren the (the ket qua tong ket tuan): o hinh thoi vang dat / dat nung tren nen
+     xanh reu. SVG noi tuyen ~0.3KB, lap ngang, dung yen - khong phu ca nen, khong anh bitmap. */
+  .tho-cam-top {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='8'%3E%3Cpath fill='%231B4D3E' d='M0 0h16v8H0z'/%3E%3Cpath fill='%23F59E0B' d='M8 1l3 3-3 3-3-3z'/%3E%3Cpath fill='%23C2410C' d='M0 1l3 3-3 3zM16 1l-3 3 3 3z'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-size: 16px 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "potential-compass",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Potential Compass - He thong ho tro hoc sinh lop 9 kham pha nang luc & dinh huong",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "seed:local": "tsx scripts/seed-local.ts",
+    "check:logic": "tsx scripts/check-logic.ts",
+    "seed:supabase": "tsx --env-file=.env.local scripts/seed-supabase.ts",
+    "recompute:profiles": "tsx --conditions=react-server --env-file=.env.local scripts/recompute-profiles.ts",
+    "check:data": "tsx --conditions=react-server --env-file=.env.local scripts/check-data-quality.ts",
+    "export:dataset": "tsx --conditions=react-server --env-file=.env.local scripts/export-dataset.ts",
+    "analyze:metrics": "tsx --conditions=react-server --env-file=.env.local scripts/analyze-metrics.ts",
+    "analyze:survey": "tsx --conditions=react-server --env-file=.env.local scripts/analyze-survey.ts",
+    "analyze:scoring": "tsx scripts/analyze-scoring.ts",
+    "teacher:account": "tsx --conditions=react-server --env-file=.env.local scripts/teacher-account.ts",
+    "data:retention": "tsx --conditions=react-server --env-file=.env.local scripts/data-retention.ts",
+    "analyze:models": "tsx --conditions=react-server --env-file=.env.local scripts/analyze-models.ts",
+    "simulate:pilot": "DATA_BACKEND=local LOCAL_DATA_DIR=sim-pilot/data tsx --conditions=react-server scripts/simulate-pilot.ts",
+    "analyze:sim": "npm run -s simulate:pilot && export DATA_BACKEND=local LOCAL_DATA_DIR=sim-pilot/data && npm run -s analyze:survey && npm run -s analyze:metrics && npm run -s analyze:models"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "idb-keyval": "^6.2.1",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "server-only": "^0.0.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.0.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}

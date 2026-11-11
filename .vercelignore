@@ -1,0 +1,15 @@
+# Bien moi truong: dat qua Vercel Project Settings, KHONG upload file
+.env
+.env.*
+
+# Kho JSON cua che do local - production dung Supabase.
+# Dau / neo vao THU MUC GOC: neu viet "data/" thi se khop ca src/lib/data/
+# (module cua app) va lam build that bai voi loi "Can't resolve '@/lib/data'".
+/data
+
+# Build/deps
+/.next
+/node_modules
+
+# Tai lieu ban giao (.docx) - khong can cho runtime
+/docs
